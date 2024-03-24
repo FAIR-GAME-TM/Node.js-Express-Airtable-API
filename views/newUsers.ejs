@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Node & Airtable Demo</title>
+  </head>
+  <body>
+    <!-- New User Form -->
+    <form action="/users" method="POST">
+      <label for=""
+        >First Name
+        <input type="text" name="firstName" value="<%= locals.firstName %>"
+      /></label>
+      <!-- Uses ejs in value attribute. -->
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
