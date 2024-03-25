@@ -17,14 +17,26 @@ Only company developers are authorized to use this code for the sole purpose of 
 - Airtable DB & API
 - Built in VSCode
 
-## Installation for Development
+## Installation Instructions for the First Time Cloning the Project
+
+1. Ensure Node.js version 20.11.1 LTS is installed, type ``` node -v ``` in your terminal to check what version of node js is installed on your machine.
+2. Clone the repository: ``` git clone "repository-url" ``` (Repository's URL goes in the quotes).
+3. Navigate to the project directory and install dependencies:
+   - ``` cd "file path" ``` (File path goes in the quotes).
+   - ``` npm install ```
+4. Start the development server: ``` npm run nodeServer ```
+
+## Pull Each Time You Start Work on the Project
 
 1. ``` git pull ```
-2. ``` npm init -y ```
 
-## Usage for Development (See package.json for build)
+## Usage for Development to Run the Dev Server (See package.json for Build)
 
 1. ``` npm run nodeServer ```
+
+## Usage Instructions
+
+This repository contains proprietary code belonging to Fair-Game&trade;. Access is limited to the company's full-stack engineers, who are authorized to further develop the project in alignment with the company's interests.
 
 ## Author
 
